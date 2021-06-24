@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".custom_view.DrawTestActivity">
+
+    <com.jw.firstapp.custom_view.CustomHScrollView
+        android:id="@+id/hs1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/hello_test_fragment_3"
+            android:singleLine="true"
+            android:background="@drawable/gradient_test"/>
+
+    </com.jw.firstapp.custom_view.CustomHScrollView>
+
+    <com.jw.firstapp.custom_view.CustomHScrollView
+        android:id="@+id/hs2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/hs1">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/hello_test_fragment_3"
+            android:singleLine="true"
+            android:background="@drawable/gradient_test"/>
+
+    </com.jw.firstapp.custom_view.CustomHScrollView>
+
+
+    <com.jw.firstapp.custom_view.DrawTestView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/st"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="scrollTo"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sb"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="scrollBy"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

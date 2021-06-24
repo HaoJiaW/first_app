@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_test_fragment_2">Hello test fragment 2</string>
+    <string name="hello_test_fragment_3">Hello test fragment 1 Hello test fragment 2 Hello test fragment 3 Hello test fragment 4 Hello test fragment 5 Hello test fragment 6 Hello test fragment 7 Hello test fragment 8</string>
+    <string name="hello_test_fragment">Hello test fragment</string>
+    <string name="hello_dagger">Hello Dagger</string>
+
+
+</resources>
